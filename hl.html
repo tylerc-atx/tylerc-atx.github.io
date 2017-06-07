@@ -8451,15 +8451,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11233,7 +11233,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11676,7 +11676,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -11732,14 +11732,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -11778,7 +11778,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Highland-Lakes-Storm-Inflow-Predictive-Model">Highland Lakes Storm Inflow Predictive Model<a class="anchor-link" href="#Highland-Lakes-Storm-Inflow-Predictive-Model">&#182;</a></h1><p><img src="images/highlandlakes2008.jpg" alt="highlandlakes"></p>
+<h1 id="Highland-Lakes-Storm-Inflow-Predictive-Model">Highland Lakes Storm Inflow Predictive Model<a class="anchor-link" href="#Highland-Lakes-Storm-Inflow-Predictive-Model">&#182;</a></h1><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/highlandlakes2008.jpg" alt="highlandlakes"></p>
 <hr>
 <h2 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h2><p>A predictive machine learning model to estimate the lake inflows after major storms in the Austin, Texas area.</p>
 <p>The highland lakes are managed by the Lower Colorado River Authority (LCRA) and protect the downstream urban population living in the floodplain. A major multi-decade drought shifted the public focus from flood control to water conservation in the greater Austin area. In 2015, a major storm ended the drought and refilled the lakes.</p>
@@ -11860,17 +11860,17 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h1 id="Overview-of-the-highland-lakes-system">Overview of the highland lakes system<a class="anchor-link" href="#Overview-of-the-highland-lakes-system">&#182;</a></h1><p><img src="images/lake_profile_no_data.png" alt="lakeprofile"></p>
+<h1 id="Overview-of-the-highland-lakes-system">Overview of the highland lakes system<a class="anchor-link" href="#Overview-of-the-highland-lakes-system">&#182;</a></h1><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/lake_profile_no_data.png" alt="lakeprofile"></p>
 <p>This project focused on the inflows to Lake Travis (Mansfield Dam) as the response variable.</p>
 <hr>
 <h1 id="May-2015-floods-end-the-drought">May 2015 floods end the drought<a class="anchor-link" href="#May-2015-floods-end-the-drought">&#182;</a></h1><p>Drought before/after pictures as seen on <a href="http://projects.statesman.com/news/lake-travis-levels/">Austin-American Statesmans Before and After Project</a></p>
-<h4 id="Lake-Travis-During-Drought-(2012)">Lake Travis During Drought (2012)<a class="anchor-link" href="#Lake-Travis-During-Drought-(2012)">&#182;</a></h4><p><img src="images/RM620before.png" alt="RM620before"></p>
-<h4 id="Lake-Travis-After-Drought-(2016)">Lake Travis After Drought (2016)<a class="anchor-link" href="#Lake-Travis-After-Drought-(2016)">&#182;</a></h4><p><img src="images/RM620after.png" alt="RM620after"></p>
+<h4 id="Lake-Travis-During-Drought-(2012)">Lake Travis During Drought (2012)<a class="anchor-link" href="#Lake-Travis-During-Drought-(2012)">&#182;</a></h4><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/RM620before.png" alt="RM620before"></p>
+<h4 id="Lake-Travis-After-Drought-(2016)">Lake Travis After Drought (2016)<a class="anchor-link" href="#Lake-Travis-After-Drought-(2016)">&#182;</a></h4><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/RM620after.png" alt="RM620after"></p>
 <hr>
 <h1 id="How-does-weather-affect-the-lakes?">How does weather affect the lakes?<a class="anchor-link" href="#How-does-weather-affect-the-lakes?">&#182;</a></h1><p>Rainfall lands in the surrounding basin feeding the lakes. The initial rainfall is absorbed into the ground. During and (typically) after the storm, the water collects in streams. The streams gradually fill the lake after the storm.
-<img src="images/stormrainflowusgs.gif" alt="stormrainflow"></p>
+<img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/stormrainflowusgs.gif" alt="stormrainflow"></p>
 <h1 id="Sensors">Sensors<a class="anchor-link" href="#Sensors">&#182;</a></h1><p>Rain gauges are placed throughout the watersheds to monitor where rain is falling during a storm. This helps predict which lakes will receive inflows - buying time to begin releasing water from the various dams as needed to create flood capacity.
-<img src="images/watersheds_precipitation.png" alt="watershedsensors"></p>
+<img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/watersheds_precipitation.png" alt="watershedsensors"></p>
 
 </div>
 </div>
@@ -11931,9 +11931,9 @@ div#notebook {
 
 <pre><code>1. Organize a list of all possible gauges
 2. Select a gauge from a drop down box (Causing the page to regenerate with new options)
-      * Parse the new options available for sensors for each gauge     
+      * Parse the new options available for sensors for each gauge
 3. Cycle through sensors for each gauge
-4. Enter two date fields with in a 180-day range (maximum per site guidelines)     
+4. Enter two date fields with in a 180-day range (maximum per site guidelines)
       * Cycle through dates until no more data was available
 5. Submit a request with the fields filled in
 6. Parse a javascript table, reading headers and the columns of data
@@ -11949,7 +11949,7 @@ div#notebook {
 ----------------------------------------------------------------------
 
 selected    - DropDownList1
-clicked     -            1405  Eldorado 2 E  
+clicked     -            1405  Eldorado 2 E
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -11958,18 +11958,18 @@ selected    - DropDownList2
 clicked     - PC              Rainfall at Site
 ----------------------------------------------------------------------
 selected    - Date2
-entered     - End Date        06/01/2017     
+entered     - End Date        06/01/2017
 selected    - Date1
-entered     - Start Date      12/04/2016     
+entered     - Start Date      12/04/2016
 clicked     - Button1
 parsed      - tbody
 access time - 06/01/2017 12:49:12
 inserted    - 34194 records
 
 selected    - Date2
-entered     - End Date        12/03/2016     
+entered     - End Date        12/03/2016
 selected    - Date1
-entered     - Start Date      06/07/2016     
+entered     - Start Date      06/07/2016
 clicked     - Button1
 parsed      - tbody
 access time - 06/01/2017 12:50:09
@@ -11994,7 +11994,7 @@ inserted    - 33806 records</code></pre>
 <p><strong>Ticker Tape</strong>:<br>
 Precipitation (blue)<br>
 Moving sum (orange)</p>
-<p><img src="images/raintape2.png" alt="stormevents"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/raintape2.png" alt="stormevents"></p>
 
 </div>
 </div>
@@ -12013,12 +12013,12 @@ Moving sum (orange)</p>
 <h1 id="Feature-Engineering">Feature Engineering<a class="anchor-link" href="#Feature-Engineering">&#182;</a></h1><p>Data transformation was very comprehensive. The features needed to be grouped and transformed from a series of short (but variable) time intervals into discrete storm events.</p>
 <p>No data existed on start/stop times for the storm events, so they needed to be defined using the precipitation moving average.</p>
 <p>Also, lake level data was not useful for predicting inflows. A lake level volume was needed to create lake volume deltas.</p>
-<p><img src="images/transform of data.png" alt="datajourney"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/transform of data.png" alt="datajourney"></p>
 <h2 id="Lake-Geometry">Lake Geometry<a class="anchor-link" href="#Lake-Geometry">&#182;</a></h2><p>Lake level is a poor response variable since lakes typically contain more volume at higher levels. Fortunately, LIDAR/Bathymetric surveys of the lakes were performed by the Texas Water Development board. From this data, tables were provided to map lake levels to volume.<br>
 Elevation-Volume curves were used to estimate the volume at various levels.</p>
 <p>Below: Snippets from the 2008 Lake Buchanan Survey</p>
-<p><img src="images/bathymetry.png" alt="lake surveys">
-<img src="images/buchanan voluem curves.png" alt="level-volumecurve"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/bathymetry.png" alt="lake surveys">
+<img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/buchanan voluem curves.png" alt="level-volumecurve"></p>
 <h3 id="How-big-was-the-Data?">How big was the Data?<a class="anchor-link" href="#How-big-was-the-Data?">&#182;</a></h3><table>
 <thead><tr>
 <th>Type</th>
@@ -12121,16 +12121,16 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
 <p>EDA was used for 'Reality' checks and (sometimes painfully obvious) observations about the data</p>
 <p>The data was visually inspected to ensure that the feature transformation process was successful and generated useful information.</p>
 <hr>
-<h4 id="Dam-Volumes-throughout-historical-storm-events:">Dam Volumes throughout historical storm events:<a class="anchor-link" href="#Dam-Volumes-throughout-historical-storm-events:">&#182;</a></h4><p><img src="images/eda_max_hist.png" alt="maxhist"></p>
+<h4 id="Dam-Volumes-throughout-historical-storm-events:">Dam Volumes throughout historical storm events:<a class="anchor-link" href="#Dam-Volumes-throughout-historical-storm-events:">&#182;</a></h4><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/eda_max_hist.png" alt="maxhist"></p>
 <ul>
 <li>The distribution of lake levels is <strong>bimodal</strong>, which is expected in a system that is designed to manage massive storm inflows, and also conserve water during droughts.</li>
 </ul>
-<h4 id="Inflows-throughout-historical-storm-events:">Inflows throughout historical storm events:<a class="anchor-link" href="#Inflows-throughout-historical-storm-events:">&#182;</a></h4><p><img src="images/eda_inflow_hist.png" alt="inflowhist"></p>
+<h4 id="Inflows-throughout-historical-storm-events:">Inflows throughout historical storm events:<a class="anchor-link" href="#Inflows-throughout-historical-storm-events:">&#182;</a></h4><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/eda_inflow_hist.png" alt="inflowhist"></p>
 <p>Most inflows are minor, with a few very major inflows that characterize the 'refilling' of the lakes during massive storm events.</p>
 <p><strong>Below, inflows are filtered to remove small storms:</strong></p>
-<p><img src="images/eda_inflowgreater_hist.png" alt="inflowhist"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/eda_inflowgreater_hist.png" alt="inflowhist"></p>
 <p>Clearly, several very large storms occured that caused 'outlier' inflows.</p>
-<h4 id="Storm-event-durations">Storm event durations<a class="anchor-link" href="#Storm-event-durations">&#182;</a></h4><p><img src="images/stormduration.png" alt="durations"></p>
+<h4 id="Storm-event-durations">Storm event durations<a class="anchor-link" href="#Storm-event-durations">&#182;</a></h4><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/stormduration.png" alt="durations"></p>
 <p>Most of the storms were clustered around the 10 hour mark</p>
 
 </div>
@@ -12143,12 +12143,12 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Linear-Regression">Linear Regression<a class="anchor-link" href="#Linear-Regression">&#182;</a></h1><p>The first model attempted was a linear regression model. This was performed to try to draw inferences about the model and see if the watershed rainfall features were affecting the appropriate inflow response variable.</p>
 <h3 id="Collinearity">Collinearity<a class="anchor-link" href="#Collinearity">&#182;</a></h3><p><strong>High Variance Inflation Factors</strong> were discovered for many of the rain gauges. VIFs above 5 were removed.</p>
-<p><img src="images/vifs3.png" alt="viff"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/vifs3.png" alt="viff"></p>
 <h3 id="Features-chosen">Features chosen<a class="anchor-link" href="#Features-chosen">&#182;</a></h3><p>An initial regression was fit to look for features that were not contributing to the Mansfield Dam inflow response variable. This was characterized by large P-values.</p>
-<p><img src="images/initialR22.png" alt="initial"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/initialR22.png" alt="initial"></p>
 <p>This information, combined with high VIFs, resulted in many features being filtered out.</p>
 <p>The resulting features:
-<img src="images/LinearRegressionFeatures.png" alt="regressionfeatures"></p>
+<img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/LinearRegressionFeatures.png" alt="regressionfeatures"></p>
 
 </div>
 </div>
@@ -12191,7 +12191,7 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
 </tbody>
 </table>
 <p>Ridge regression resulted in a small increase to final score</p>
-<h3 id="Regression-Results">Regression Results<a class="anchor-link" href="#Regression-Results">&#182;</a></h3><p><img src="images/OLSResults2.png" alt="OLSRESULTS"></p>
+<h3 id="Regression-Results">Regression Results<a class="anchor-link" href="#Regression-Results">&#182;</a></h3><p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/OLSResults2.png" alt="OLSRESULTS"></p>
 <p><strong>Condition Number:</strong> The condition number is not terrible - indicating some, but not extreme collinearity. This condition number reflects the collinearity <em>after</em> removing the features with high VIF.</p>
 <h3 id="Linear-Regression-Performance">Linear Regression Performance<a class="anchor-link" href="#Linear-Regression-Performance">&#182;</a></h3><h3 id="MAE-vs-MSE">MAE vs MSE<a class="anchor-link" href="#MAE-vs-MSE">&#182;</a></h3><p>Mean absolute error was chosen as the preferred scoring due to the variable sizes in the response variable. Mean squared error was rejected because it would overly penalize large errors (which are likely as storms increase in size)</p>
 <h4 id="KFolds">KFolds<a class="anchor-link" href="#KFolds">&#182;</a></h4><p>Data was split using KFolds into 5 sets of train/test data.</p>
@@ -12220,7 +12220,7 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
 <p>The sample size was reduced from 436 to 407 by removing very large storm events.</p>
 <h3 id="Features-used">Features used<a class="anchor-link" href="#Features-used">&#182;</a></h3><p>Unlike linear regression - multicollinearity is not an issue for a randomforest regressor. All available features were used. More features were used in the RandomForest model including features from other watersheds.</p>
 <p>Random Forest Features:</p>
-<p><img src="images/RandomForestFeatures.png" alt="randomforest"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/RandomForestFeatures.png" alt="randomforest"></p>
 
 </div>
 </div>
@@ -12262,7 +12262,7 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
 <h4 id="Feature-Importances">Feature Importances<a class="anchor-link" href="#Feature-Importances">&#182;</a></h4><p><strong>88.4%</strong> of the feature importance came from the four gauges direclty in the Lake Travis Watershed. This means that the gauges in the watershed were directly affecting the reading, with a little bit of effect from gauges in the neighboring (Lake LBJ) watershed.</p>
 <p>The feature importances are exactly what you would expect, given the natural relationship.</p>
 <p>Orange circles denote the chosen 4 gauges in the watershed:</p>
-<p><img src="images/topfis.png" alt="topfis"></p>
+<p><img src="https://raw.githubusercontent.com/tylerc-atx/highland_lakes_inflow/master/images/topfis.png" alt="topfis"></p>
 <div class="highlight"><pre><span></span><span class="n">Feature</span> <span class="n">Importances</span>
 <span class="p">[(</span><span class="s1">&#39;Menard 12 SSE&#39;</span><span class="p">,</span> <span class="mf">0.00804764</span><span class="p">),</span>
  <span class="p">(</span><span class="s1">&#39;Sonora 14 SE&#39;</span><span class="p">,</span> <span class="mf">0.00956749</span><span class="p">),</span>
@@ -12295,7 +12295,7 @@ Elevation-Volume curves were used to estimate the volume at various levels.</p>
   </div>
 </body>
 
- 
+
 
 
 </html>

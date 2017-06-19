@@ -50,6 +50,7 @@ html,body {
 
 canvas#sigma_bg_1 {
 	display: none;
+    background-color: #000000;
 }
 
 #attributepane {

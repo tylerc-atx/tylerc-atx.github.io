@@ -5,12 +5,12 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": ""
+    "text": "Tyler Carstensen"
   },
   "text": {
     "more": "",
-    "intro": "",
-    "title": ""
+    "intro": "Transaction 6359f0868171b1d194cbee1af2f16ea598ae8fad666d9b012c8ed2b79a236ec4\nDepth 10",
+    "title": "6359f0868171b1d194cbee1af2f16ea598ae8fad666d9b012c8ed2b79a236ec4"
   },
   "legend": {
     "edgeLabel": "",
@@ -18,7 +18,7 @@
     "nodeLabel": ""
   },
   "features": {
-    "search": true,
+    "search": false,
     "groupSelectorAttribute": false,
     "hoverBehavior": "default"
   },
